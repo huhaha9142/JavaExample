@@ -5,5 +5,6 @@ public class HelloWorld {
 		// 메시지 출력
 		System.out.println("Hello Java!");
 	}
+	
 
 }

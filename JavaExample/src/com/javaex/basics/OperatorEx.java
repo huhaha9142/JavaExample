@@ -6,7 +6,7 @@ public class OperatorEx {
 //				LogicOperEx();
 //				bitOperEx();
 //				bitShiftOperEx();
-//				conditionalOperEx();
+				conditionalOperEx();
 				
 		}
 		//	3항 연산자
@@ -26,9 +26,9 @@ public class OperatorEx {
 					//	       score <	50	-> Fail
 					
 					String message = score >= 80 ? "Good!":
-		}									  score >= 50 ? "Pass" : "Fail";
+											  score >= 50 ? "Pass" : "Fail";
 					System.out.println("score: " + score + ", 결과:" +message);
-					
+}			
 		//	비트 시프트 연산자
 		private static void bitShiftOperEx() {
 				//	비트 단위로 이동

@@ -11,7 +11,7 @@ public class QueueEx {
 		
 		//	데이터 제공하기
 		for (int i = 0; i < 5; i++) {
-			queue.offer(i); //	ENQUEUE
+			queue.offer(i); // ENQUEUE
 			System.out.println("QUEUE:" + queue);
 			
 		}

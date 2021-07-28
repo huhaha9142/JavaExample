@@ -2,6 +2,14 @@ package com.javaex.api.generic;
 
 //	Generic 이용
 //	T -> Type
+
+//	파라미터는 갯수는 제한이 없다
+//	많이 사용되는 파라미터 관례:
+//	T: Type
+//	R: Return Type
+//	K: Key
+//	V: Value
+
 public class GenericBox<T> {	//	<T> 는 미정
 	T content;	//	타입을 미정 상태
 

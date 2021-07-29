@@ -49,10 +49,13 @@ public class StringEx {
 		System.out.println("str contains Java ? " + str.contains("Java"));
 		int idx = str.indexOf("Java");	//	처음부터 Java 검색
 		System.out.println("1st index of Java : " + idx);
+		
 		idx = str.indexOf("Java", 4);	//	인덱스 4부터 Java 검색
 		System.out.println("2nd index of Java : " + idx);
+		
 		idx = str.indexOf("Java", idx + 4);	//	시작 인덱스 뒤로 밀기
 		System.out.println("3rd index of Java : " + idx);
+		
 		//	더 이상 검색어가 없으면 -1
 		idx = str.lastIndexOf("Java");	//	역방향 검색
 		System.out.println("역방향 검색: " + idx);

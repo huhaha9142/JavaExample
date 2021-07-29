@@ -2,6 +2,7 @@ package com.javaex.api.arrays;
 
 import java.util.Arrays;
 import java.util.Collections;
+import java.util.Comparator;
 
 public class ArraysEx {
 

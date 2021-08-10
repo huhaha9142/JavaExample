@@ -8,7 +8,7 @@ public interface AuthorDAO {
 	public AuthorVO get(Long id);	//	저자 정보 확인
 	public boolean insert(AuthorVO vo);	//	삽입
 	public boolean update(AuthorVO vo);	//	갱신
-	public boolean delete(Long id);	//		삭제
+	public boolean delete(Long id);	//	삭제
 	
 	
 }

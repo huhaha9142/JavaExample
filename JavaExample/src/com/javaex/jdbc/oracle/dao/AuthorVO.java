@@ -27,7 +27,7 @@ public class AuthorVO {
 		authorId = id;
 	}
 
-	//		getter & setter
+	//	getter & setter
 	public Long getAuthorId() {
 		return authorId;
 	}
